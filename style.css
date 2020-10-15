@@ -113,6 +113,7 @@ body,
     background-color: rgba(247, 136, 167, 0.6);
     position: fixed;
     right: 200px;
+    z-index: 2;
   }
   .circle-two {
     height: 400px;
@@ -122,6 +123,7 @@ body,
     position: relative;
     left: 300px;
     top: 300px;
+    z-index: 3;
   }
   .circle-three {
     height: 300px;
@@ -130,5 +132,6 @@ body,
     background-color: rgba(207, 130, 213, 0.6);
     position: relative;
     top: 60px;
+    z-index: 1;
   }
 }
